@@ -1,6 +1,6 @@
 # This file boots the Ruby-based parts of JRuby.
 
-require 'jruby' # NOTE: consider not doing this, require 'java' is enough!
+require 'java'
 require 'jruby/util' # stuff boot depends on (compared to a full require 'jruby')
 
 module JRuby
